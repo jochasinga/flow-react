@@ -23,5 +23,10 @@ This is a work in progress, soon all chapters will be available.
 - [x] [4: Minting Token](./ch4)
 - [ ] 5: Transferring Token
 
+## Copyrights
+
+Dual-licensed under MIT and Apache 2. Dog and cat photos from Unsplash.
+
 [1]: https://onflow.org
 [2]: https://nft.storage
+
