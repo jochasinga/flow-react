@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Pet-heading {
+  color: black;
+  margin-bottom: 8px;
+  border: solid 1px gray;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.App-content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-nav {
+  background-color:lightgray;
+  position: fixed;
+  min-width: 100vw;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.v-center {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Pet-container {
+  width: 40%;
+  text-align: center;
+  margin: auto;
+}
+
+.Pet-photo {
+  width: 100%;
+}
+
+.Button-full {
+  height: 40px;
+  width: 100%;
+  font-size: 1.2rem;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.Button-primary {
+  height: 40px;
+  min-width: 80px;
+  font-size: 1.2rem;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.Menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
