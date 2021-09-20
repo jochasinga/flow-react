@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# flow-react tutorial
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A step-by-step tutorial to get you started building an NFT mini pet marketplace with [Flow][1], [NFT.storage][2], and React.
+Based on [Flowwow](https://github.com/jochasinga/flowwow)
 
-## Available Scripts
+## How to use
 
-In the project directory, you can run:
+The tutorial is broken into several small chapters, each with its own directory with self-contained project.
 
-### `yarn start`
+For example, [ch4](./ch4) is the `Minting Token` chapter with its own [README](./ch4/README.md). To start, simply `cd ch4` and run `npm install && npm run start`, then follow the README for that chapter.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+If you missed something or did something differently, you will be able to come back to the path again in the next chapter where the code is already provided.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Don't worry about the dependpencies and styling. They are included for you.
 
-### `yarn test`
+## Contents
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is a work in progress, soon all chapters will be available.
 
-### `yarn build`
+- [ ] 1: Deploy the Contract
+- [ ] 2: Display Local Data
+- [ ] 3: Setup Authentication
+- [x] [4: Minting Token](./ch4)
+- [ ] 5: Transferring Token
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[1]: https://onflow.org
+[2]: https://nft.storage
